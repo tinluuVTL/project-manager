@@ -1,0 +1,71 @@
+.tasks {
+  top: 2rem;
+  flex: 4;
+  margin: 0rem 0rem 0rem 1rem;
+  background-color: #d7e4e9;
+  border-radius: 0.7rem;
+  height: fit-content;
+}
+.task-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  margin: 1rem 1rem 0rem 1rem;
+}
+.add-task-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #000c66;
+  color: white;
+  border-radius: 0.6rem;
+  width: 10vw;
+  height: 5vh;
+  margin: 1rem 1rem 0rem 1rem;
+}
+.stats-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0rem 1rem 0rem 1rem;
+}
+.tasks-table {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 0rem;
+}
+.table-header,
+.table-data {
+  background-color: #000c66;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 0.7rem;
+  margin: 0.5rem 0.5rem 0px 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.table-header {
+  margin-top: 2rem;
+}
+.table-header td {
+  color: white;
+}
+.table-data td {
+  display: flex;
+  width: 100%;
+  margin: 0px 0.5rem 0px 0rem;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.table-data {
+  background-color: #000c66;
+}
+
+.pagination {
+  margin-top: 1rem;
+}
